@@ -1,3 +1,6 @@
+This is a simple blog to learn MVC, codeigniter, bootstrap, phpmyadmin were used.
+
+Autor: Tomasz Nagrodzki
 Freamwork: CodeIgniter 4.0.2
 SQL: phpmyadnmin
 
