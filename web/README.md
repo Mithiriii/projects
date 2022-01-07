@@ -1,16 +1,16 @@
 #BLOG
 
-This is a simple blog to learn MVC, codeigniter, bootstrap, phpmyadmin were used.
-Installation method: download, paste folder into php server, run
+This is a simple blog to learn MVC, codeigniter, bootstrap, phpmyadmin were used. <br>
+Installation method: download, paste folder into php server, run <br>
 
-Author: Tomasz Nagrodzki
-Freamwork: CodeIgniter 4.0.2
-SQL: phpmyadnmin
+Author: Tomasz Nagrodzki <br>
+Freamwork: CodeIgniter 4.0.2 <br>
+SQL: phpmyadnmin <br>
 
 
-Database needed for operation
+Database needed for operation <br>
 
-bdname: ci_blog
+bdname: ci_blog <br>
 
 CREATE TABLE `posts` (
   `id` int(11) NOT NULL,

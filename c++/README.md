@@ -1,3 +1,3 @@
-A windowed application created with the freemwork Qt Creator. A game of tic-tac-toe.
+A windowed application created with the freemwork Qt Creator. A game of tic-tac-toe. <br> <br>
 
-Author: Tomasz Nagrodzki
+Author: Tomasz Nagrodzki <br>
