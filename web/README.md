@@ -1,6 +1,7 @@
 #BLOG
 
 This is a simple blog to learn MVC, codeigniter, bootstrap, phpmyadmin were used.
+Installation method: download, paste folder into php server, run
 
 Author: Tomasz Nagrodzki
 Freamwork: CodeIgniter 4.0.2
