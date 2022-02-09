@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="qlearning">
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/PredictingHousePrice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/kc_house_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="deep qlearning">
+      <change afterPath="$PROJECT_DIR$/deep_q_learning/CarAI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_q_learning/car.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_q_learning/last_brain.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_q_learning/map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       <recent name="D:\projects\ai" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PredictingHousePrice">
+  <component name="RunManager" selected="Python.map">
     <configuration name="PredictingHousePrice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SellingPremiumPlan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="deep_q_learning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thompson_sampling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_q_learning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thompson_sampling/SellingPremiumPlan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/deep_q_learning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ThompsonSamplingClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +121,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thompson_sampling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_q_learning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thompson_sampling/ThompsonSamplingClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/map.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="map_commented" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_q_learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/map_commented.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,10 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.map" />
+        <item itemvalue="Python.deep_q_learning" />
+        <item itemvalue="Python.map_commented" />
         <item itemvalue="Python.PredictingHousePrice" />
         <item itemvalue="Python.RobotInStorage" />
-        <item itemvalue="Python.ThompsonSamplingClass" />
-        <item itemvalue="Python.SellingPremiumPlan" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644338955943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="deep qlearning">
+      <created>1644391304521</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644391304521</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +228,7 @@
     <MESSAGE value="ass" />
     <MESSAGE value="assas" />
     <MESSAGE value="qlearning" />
-    <option name="LAST_COMMIT_MESSAGE" value="qlearning" />
+    <MESSAGE value="deep qlearning" />
+    <option name="LAST_COMMIT_MESSAGE" value="deep qlearning" />
   </component>
 </project>
