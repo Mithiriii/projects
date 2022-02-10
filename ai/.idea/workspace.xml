@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="deep qlearning">
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/CarAI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/car.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/last_brain.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="deep qlearning - car ai" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/PredictingHousePrice.py" />
+      <option name="SCRIPT_NAME" value="D:\projects\ai\deep_q_learning\predicting_house_price\PredictingHousePrice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/map.py" />
+      <option name="SCRIPT_NAME" value="D:\projects\ai\deep_q_learning\self-driving_car\map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644391304521</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="deep qlearning - car ai">
+      <created>1644427474580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644427474580</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +230,7 @@
     <MESSAGE value="assas" />
     <MESSAGE value="qlearning" />
     <MESSAGE value="deep qlearning" />
-    <option name="LAST_COMMIT_MESSAGE" value="deep qlearning" />
+    <MESSAGE value="deep qlearning - car ai" />
+    <option name="LAST_COMMIT_MESSAGE" value="deep qlearning - car ai" />
   </component>
 </project>
