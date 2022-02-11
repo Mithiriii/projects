@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="akt">
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/brain_dropout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/brain_nodropout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/dqn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/training_earlystopping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/training_noearlystopping.py" afterDir="false" />
+    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="si for minimizing energy cost">
+      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/brain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/dqn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/training.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +69,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.testing">
-    <configuration name="environment (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/environment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/dqn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="environment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,32 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_fot_the_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_fot_the_server/environment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_q_learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\projects\ai\deep_q_learning\self-driving_car\map.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/testing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="training_earlystopping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +140,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Nowy folder (2)/Chapter 13" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Nowy folder (2)/Chapter 13/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/training_earlystopping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/training.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,10 +177,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.testing" />
-        <item itemvalue="Python.training_earlystopping" />
-        <item itemvalue="Python.environment (1)" />
-        <item itemvalue="Python.environment" />
-        <item itemvalue="Python.map" />
+        <item itemvalue="Python.training" />
+        <item itemvalue="Python.temp" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.dqn" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644477668527</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="si for minimizing energy cost">
+      <created>1644505942195</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644505942195</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +271,25 @@
     <MESSAGE value="deep qlearning" />
     <MESSAGE value="deep qlearning - car ai" />
     <MESSAGE value="akt" />
-    <option name="LAST_COMMIT_MESSAGE" value="akt" />
+    <MESSAGE value="si for minimizing energy cost" />
+    <option name="LAST_COMMIT_MESSAGE" value="si for minimizing energy cost" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/Nowy folder (2)/Chapter 13/train.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
