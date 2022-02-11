@@ -1,0 +1,28 @@
+1. BUDOWANIE ŚRODOWISKA
+    1.1 Wprowadzenie i inicjalizacja wszystkich parametrów i zmiennych środowiska
+    1.2 Utworzenie metody, która zaktualizuje środowisko zaraz po tym jak AI rozegra akcje.
+    1.3 Utworzenie metody resetującej środowisko
+    1.4 Utworzenie metody, która w dowolnym momencie poda nam bieżący stan, ostatnią zdobytą nagrodę oraz informację czy gra się skończyła
+2. BUDOWANIE MÓZGU
+    2.1 Zbudowanie warstwy wejściowej złożonej ze stanów wejściowych
+    2.2 Zbudowanie określonej liczny ukrytych warstw z określoną liczbą neuronów każdej warstwy, w pełni połączonych z warstwą wejściową i pomiędzy sobą
+    2.3 Utworzenie warstwy wyjściowej, w pełni połączonej z ostatnią warstwą ukrytą.
+    2.4 Złożenie pełnej architektury wewnątrz obiektu modelowego
+    2.5 Skompilowanie modelu z funkcją błędu średniokwadratowego straty i wybranym optymalizatorem
+3. Implementacja algorytmu głebokiego uczenia ze wzmacnianiem
+    3.1 Wprowadzenie i inicjalizacja wszystkich parametrów i zmiennych modelu sieci neuronowej głębokiego Q-learningu
+    3.2 Utworzenie metody, która zbuduje pamięć doświadczeń
+    3.3 Utworzenie metody, która zbuduje i zwróci dwie grupy danych wejściowych i docelowych, z których każda będzie w rozmiarze określonym przez batch_size
+4. Trening AI
+    4.1 Zbudowanie środowiska
+    4.2 Zbudowanie mózgu
+    4.3 Zbudowanie modelu DQN
+    4.4 Wybór trybu treningu
+    4.5 Rozpoczęcie treningu
+    4.6 W każdej epoce powtarzamy proces deep q-learningu jednocześnie wykonując pewne eksploracje przez x% czasu
+5. Testowanie
+    5.1 Zbudowanie środowiska
+    5.2 Załadowanie do mózgu wytrenowanych wag
+    5.3 Wybór trybu wnioskowania
+    5.4 Rozpoczęcie symulacji
+    5.5 Wykonywanie akcji wynikających z przewidywań

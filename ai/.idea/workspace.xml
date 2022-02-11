@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="si for minimizing energy cost">
-      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/brain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/dqn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="snake ai">
+      <change afterPath="$PROJECT_DIR$/notki/ogólny_schemat_ai.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644505942195</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="snake ai">
+      <created>1644587675816</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644587675816</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,7 +273,8 @@
     <MESSAGE value="deep qlearning - car ai" />
     <MESSAGE value="akt" />
     <MESSAGE value="si for minimizing energy cost" />
-    <option name="LAST_COMMIT_MESSAGE" value="si for minimizing energy cost" />
+    <MESSAGE value="snake ai" />
+    <option name="LAST_COMMIT_MESSAGE" value="snake ai" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
