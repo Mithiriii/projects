@@ -1,15 +1,13 @@
-import os
 import numpy as np
-import random as rn
 import environment
-import  brain_nodropout
+import brain_dropout
 import dqn
 
 #USTAWIENIE PARAMETRÓW
 epsilon = .3 #współczynnik eksploracji (30% losowych działań)
 number_actions = 5
 direction_boundary = (number_actions - 1) / 2
-number_epochs = 100
+number_epochs = 1000
 max_memory = 3000
 batch_size = 512
 temperature_step = 1.5
@@ -18,7 +16,7 @@ temperature_step = 1.5
 env = environment.Environment(optimal_temperature=(18.0, 24.0), initial_month=0, initial_number_users=20, initial_rate_data=30)
 
 #ZBUDOWANIE MÓZGU
-brain = brain_nodropout.Brain(learning_rate=0.00001, number_actions=number_actions)
+brain = brain_dropout.Brain(learning_rate=0.00001, number_actions=number_actions)
 
 #ZBUDOWANIE MODEL DQN
 dqn = dqn.DQN(max_memory=max_memory, discount=0.9)
@@ -29,6 +27,14 @@ train = True
 #SZKOLENIE AI
 env.train = train
 model = brain.model
+
+#early stopping polega na przerwaniu treningu jeśli wyniki się już nie poprawiają
+early_stopping = True
+patience = 30 #możliwa liczba epok bez poprawy
+best_total_reward = -np.inf
+patience_count = 0
+
+
 if(env.train):
     #ROZPOCZĘCIE PĘTLI NA WSZYSTKICH EPOKACH UCZENIA (1 epoka = 5 miesiecy)
     for epoch in range(1, number_epochs): #INICJALIZACJA WSZYSTKICH ZMIENNYCH ZARÓWNO ŚRODOWISKA JAK I PĘTLI TRENINGOWEJ
@@ -74,5 +80,15 @@ if(env.train):
         print("Epoka uczenia: {:03d}/{:03d}".format(epoch, number_epochs))
         print("Energia zużyta dla działającego AI: {:.0f}".format(env.total_energy_ai))
         print("Energia zużyta bez AI: {:.0f}".format(env.total_energy_noai))
-        #ZAPIS MODEL
+        #WCZESNE ZATRZYMYWANIE
+        if(early_stopping):
+            if(total_reward <= best_total_reward):
+                patience_count += 1
+            elif(total_reward > best_total_reward):
+                best_total_reward = total_reward
+                patience_count = 0
+            if(patience_count >= patience):
+                print("EarlyStopping")
+                break
+        #ZAPIS MODELU
         model.save("model.h5")

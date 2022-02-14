@@ -1,6 +1,4 @@
-import os
 import numpy as np
-import random as rn
 from keras.models import load_model
 import environment
 

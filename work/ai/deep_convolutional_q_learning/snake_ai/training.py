@@ -58,7 +58,7 @@ while True:
         state = np.reshape(state, (1, env.n_rows, env.n_columns, 1))
         next_state = np.append(next_state, state, axis=3)
         next_state = np.delete(next_state, 0, axis=3)
-        #zapamiętywanie przejścia i szkolenie ai
+        #zapamiętywanie przejścia i szkolenie work
         dqn.remember([current_state, action, reward, next_state], game_over)
         inputs, targets = dqn.get_batch(model, batch_size)
         model.train_on_batch(inputs, targets)

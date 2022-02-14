@@ -36,9 +36,9 @@ class Environment(object):
         self.game_over = 0  # czy temperatura przekroczyła -20 80
         self.train = 1  # tryb uczenia = 1, tryb wnioskowania = 0
 
-    # METODA, która aktualizuje środowisko po wykonaniu akcji przez ai
+    # METODA, która aktualizuje środowisko po wykonaniu akcji przez work
     def update_env(self, direction, energy_ai,
-                   month):  # direction == 1 ai nagrzewa serwer, direction == -1 ai chłodzi serwer
+                   month):  # direction == 1 work nagrzewa serwer, direction == -1 work chłodzi serwer
         # OBLICZANIE NAGRODY
         energy_noai = 0
         if (self.temperature_noai < self.optimal_temperature[0]):
@@ -74,7 +74,7 @@ class Environment(object):
             delta_temperature_ai = -energy_ai
         elif (direction == 1):
             delta_temperature_ai = energy_ai
-        # aktualizacja temperatury serwera ai i noai
+        # aktualizacja temperatury serwera work i noai
         self.temperature_ai += delta_intrinsic_temperature + delta_temperature_ai
         self.temperature_noai += delta_intrinsic_temperature
         # zmienna gameover
@@ -92,7 +92,7 @@ class Environment(object):
                 self.temperature_ai = self.optimal_temperature[1]
                 # system uproszczony, normalnie system chłodzenia nie jest w stanie tak szybko zredukować/zwiększyć temperatury
         # AKTUALIZACJA WYNIKÓW
-        # aktualizacja całkowitej energii dla ai i noai
+        # aktualizacja całkowitej energii dla work i noai
         self.total_energy_ai += energy_ai
         self.total_energy_noai += energy_noai
         # SKALOWANIE NASTĘPNEGO STANU (poprawa wydajności)
