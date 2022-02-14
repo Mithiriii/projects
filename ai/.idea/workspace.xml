@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="snake ai">
-      <change afterPath="$PROJECT_DIR$/notki/ogólny_schemat_ai.txt" afterDir="false" />
+    <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="notki">
+      <change afterPath="$PROJECT_DIR$/data_visualization/bar_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_visualization/line_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_visualization/point_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notki/str" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +61,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\ai\notki" />
       <recent name="D:\projects\ai\deep_q_learning\self-driving_car" />
       <recent name="D:\projects\ai\deep_q_learning\predicting_house_price" />
       <recent name="D:\projects\ai" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testing">
-    <configuration name="dqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.point_graph">
+    <configuration name="bar_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/dqn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualization/bar_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="line_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +97,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/temp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualization/line_graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="point_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualization/point_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,27 +144,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/testing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Nowy folder (2)/Chapter 13" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Nowy folder (2)/Chapter 13/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.point_graph" />
+        <item itemvalue="Python.line_graph" />
+        <item itemvalue="Python.bar_graph" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.training" />
-        <item itemvalue="Python.temp" />
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.dqn" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644587675816</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="notki">
+      <created>1644588808525</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644588808525</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +286,8 @@
     <MESSAGE value="akt" />
     <MESSAGE value="si for minimizing energy cost" />
     <MESSAGE value="snake ai" />
-    <option name="LAST_COMMIT_MESSAGE" value="snake ai" />
+    <MESSAGE value="notki" />
+    <option name="LAST_COMMIT_MESSAGE" value="notki" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
