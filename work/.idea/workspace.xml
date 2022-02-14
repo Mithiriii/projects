@@ -5,47 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a08fe69-d06d-4ce2-bcb5-ad1898efca25" name="Changes" comment="data_">
-      <change afterPath="$PROJECT_DIR$/../work/math/linear_algebra/matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/math/linear_algebra/vector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/math/probability/central_limit_theorem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/math/probability/normal_distribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/math/probability/wzor_bayesa.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/math/statistics/description_of_a_single_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../work/.idea/ai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../work/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../work/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../work/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../work/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../work/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualization/bar_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/data_visualization/bar_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualization/line_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/data_visualization/line_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualization/point_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/data_visualization/point_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_convolutional_q_learning/snake_ai/brain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_convolutional_q_learning/snake_ai/dqn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_convolutional_q_learning/snake_ai/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_convolutional_q_learning/snake_ai/model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_convolutional_q_learning/snake_ai/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_convolutional_q_learning/snake_ai/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_convolutional_q_learning/snake_ai/training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/brain_dropout.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/minimizing_energy_cost_for_the_server/brain_dropout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/brain_nodropout.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/minimizing_energy_cost_for_the_server/brain_nodropout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/minimizing_energy_cost_for_the_server/dqn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/minimizing_energy_cost_for_the_server/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/minimizing_energy_cost_for_the_server/model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/minimizing_energy_cost_for_the_server/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/training_earlystopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/minimizing_energy_cost_for_the_server/training_earlystopping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/minimizing_energy_cost_for_the_server/training_noearlystopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/minimizing_energy_cost_for_the_server/training_noearlystopping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/predicting_house_price/PredictingHousePrice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/predicting_house_price/PredictingHousePrice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/predicting_house_price/kc_house_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/predicting_house_price/kc_house_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/self-driving_car/CarAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/self-driving_car/CarAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/self-driving_car/car.kv" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/self-driving_car/car.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/self-driving_car/last_brain.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/self-driving_car/last_brain.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_q_learning/self-driving_car/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/deep_q_learning/self-driving_car/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notki/ogólny_schemat_ai.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../work/notki/ogólny_schemat_ai.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notki/str" beforeDir="false" afterPath="$PROJECT_DIR$/../work/notki/str" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/q_learning/RobotInStorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/q_learning/RobotInStorage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thompson_sampling/BanditSelection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/thompson_sampling/BanditSelection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thompson_sampling/SellingPremiumPlan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/thompson_sampling/SellingPremiumPlan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thompson_sampling/ThompsonSamplingClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/ai/thompson_sampling/ThompsonSamplingClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/math/hypotheses_and_conclusions/confidence_interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/math/hypotheses_and_conclusions/hypothesis_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../work/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +59,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\work\math\hypotheses_and_conclusions" />
       <recent name="D:\projects\ai\ai" />
       <recent name="D:\projects\ai\math" />
       <recent name="D:\projects\ai\notki" />
       <recent name="D:\projects\ai\deep_q_learning\self-driving_car" />
-      <recent name="D:\projects\ai\deep_q_learning\predicting_house_price" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.central_limit_theorem">
+  <component name="RunManager" selected="Python.hypothesis_testing">
     <configuration name="central_limit_theorem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,6 +101,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math/statistics/description_of_a_single_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hypothesis_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/math/hypotheses_and_conclusions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/math/hypotheses_and_conclusions/hypothesis_testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,34 +172,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="point_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualization/point_graph.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hypothesis_testing" />
         <item itemvalue="Python.central_limit_theorem" />
         <item itemvalue="Python.normal_distribution" />
         <item itemvalue="Python.description_of_a_single_dataset" />
         <item itemvalue="Python.matrix" />
-        <item itemvalue="Python.point_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644825371747</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="data_">
+      <created>1644838582979</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644838582979</updated>
+    </task>
+    <task id="LOCAL-00013" summary="data_">
+      <created>1644838599260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644838599260</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
