@@ -95,6 +95,7 @@ def in_random_order(data):
     for i in indexes:
         yield data[i]
 
+
 def minimize_stochastic(target_fn, gradient_fn, x, y, theta_0, alpha_0=0.01):
     data = zip(x, y)
     theta = theta_0
