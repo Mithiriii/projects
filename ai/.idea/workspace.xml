@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="zzz">
-      <change afterPath="$PROJECT_DIR$/../work/machine_learning/filtr_spam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/machine_learning/linear_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/machine_learning/multiple_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/machine_learning/standard_errors_of_regression_coefficients.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/notki/przerabiane_rzeczy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/math/gradient_descent/gradient_estimation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/math/gradient_descent/gradient_estimation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/machine_learning/spam/regularization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/machine_learning/regularization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644930538738</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zzz">
+      <created>1644939731346</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644939731346</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
