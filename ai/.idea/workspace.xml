@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="zzz">
-      <change afterPath="$PROJECT_DIR$/../work/clustering/bottom_up_clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/clustering/choosing_k_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/clustering/k_means.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/natural_language_procession/lda_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/natural_language_procession/n_gram_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/natural_language_procession/word_clouds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/math/linear_algebra/vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/math/linear_algebra/vector.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="D:\projects\work\machine_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bottom_up_clustering">
+  <component name="RunManager" selected="Python.lda_analysis">
     <configuration name="bottom_up_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decision_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lda_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/decision_tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/natural_language_procession" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/decision_tree/decision_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/natural_language_procession/lda_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="percepton" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="n_gram_models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/artifical_neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/natural_language_procession" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/artifical_neural_network/percepton.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/natural_language_procession/n_gram_models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="unidirectional_neural_networks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="word_clouds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/artifical_neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/natural_language_procession" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/artifical_neural_network/unidirectional_neural_networks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/natural_language_procession/word_clouds.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lda_analysis" />
+        <item itemvalue="Python.n_gram_models" />
+        <item itemvalue="Python.word_clouds" />
         <item itemvalue="Python.bottom_up_clustering" />
         <item itemvalue="Python.color_grouping" />
-        <item itemvalue="Python.unidirectional_neural_networks" />
-        <item itemvalue="Python.percepton" />
-        <item itemvalue="Python.decision_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645005164957</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="zzz">
+      <created>1645012237421</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645012237421</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
