@@ -41,3 +41,7 @@ def magnitude(v):
 
 def distance(v, w):
     return magnitude(vector_substract(v, w))
+
+
+def squared_distance(v, w):
+    return sum_of_squares(vector_substract(v, w))
