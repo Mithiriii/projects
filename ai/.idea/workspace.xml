@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="folder refactor">
-      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/datasets/housing/housing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/house_price.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="book3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645090263921</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="book3">
+      <created>1645109583072</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1645109583072</updated>
+    </task>
+    <task id="LOCAL-00020" summary="book3">
+      <created>1645109609603</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1645109609603</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +338,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="zzz" />
     <MESSAGE value="folder refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="folder refactor" />
+    <MESSAGE value="book3" />
+    <option name="LAST_COMMIT_MESSAGE" value="book3" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
