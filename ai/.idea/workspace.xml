@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="zzz">
-      <change afterPath="$PROJECT_DIR$/../work/graphs/betwenness_centrality.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/recommendation/collaborative_recommendation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/recommendation/mainstream_recommendation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/map_reduce/word_count.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/notki/przerabiane_rzeczy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../work/notki/przerabiane_rzeczy.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645019403608</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="zzz">
+      <created>1645084743447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645084743447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
