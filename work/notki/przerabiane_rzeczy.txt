@@ -1,3 +1,4 @@
 Książki:
-Sztuczna Inteligencja(helion) - Hadelin de Ponteves  - Przerobione  8/10
-Data science od podstaw. Analiza danych w Pythonie(helion) - Joel Grus - Przerobione  4/10
+Sztuczna Inteligencja - Hadelin de Ponteves  - Przerobione  8/10
+Data science od podstaw. Analiza danych w Pythonie - Joel Grus - Przerobione  4/10
+Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow - Aurelien Geron - w trakcie
