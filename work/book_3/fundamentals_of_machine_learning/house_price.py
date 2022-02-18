@@ -3,8 +3,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import hashlib
-from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.model_selection import StratifiedShuffleSplit, cross_val_score
 from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
+from sklearn.pipeline import Pipeline, FeatureUnion
+from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import GridSearchCV
 
 
 #############################################################POBIERANIE DANYCH#############################################################
@@ -129,11 +137,179 @@ housing_labels = start_train_set["median_house_value"].copy()
 #median = housing["total_bedrooms"].median()     #opcja 3
 #housing["total_bedrooms"].fillna(median, inplace=True)
 
-#z modułu scki-learn można użyć modułu simpleimputer zajmujący się brakującymi wartościami
+    #z modułu scki-learn można użyć modułu simpleimputer zajmujący się brakującymi wartościami
 imp_mean = SimpleImputer(missing_values=np.nan, strategy='mean')
-housing_num = housing.drop("ocean_proximity", axis=1) #ocen_proximity nie jest wartością numeryczną
+housing_num = housing.drop("ocean_proximity", axis=1)   #ocen_proximity nie jest wartością numeryczną
 imp_mean.fit(housing_num)
-#najbezpieczniej będzie użyć tego do wszystkich wartości numerycznych
+    #najbezpieczniej będzie użyć tego do wszystkich wartości numerycznych
 X = imp_mean.transform(housing_num)
 housing_tr = pd.DataFrame(X, columns=housing_num.columns)
+
+#praca z danymi tekstowymi i atrybutami kategorialnymi
+encoder = LabelEncoder()
+housing_cat = housing["ocean_proximity"]
+housing_cat_encoded = encoder.fit_transform(housing_cat)
+#problem w tym, że ml będzie uznawało, że 0 i 1 są do siebie bardziej zbliżone niż 0 i 4
+#trzeba zastosować kodowanie gorącojedynkowe
+encoder = OneHotEncoder()
+housing_cat_1hot = encoder.fit_transform(housing_cat_encoded.reshape(-1, 1))
+#funkcja reshape umożliwa wprowadzenie jednego wymiaru o wartości -1 co oznacza, że jest on niesprecyzowany, wartość zostaje wywnioskowana z długości macierzy i pozostałych wymiarów
+#print(housing_cat_1hot.toarray())
+#SKALOWANIE CECH#
+#nie jest wymagane skalowanie wartości docelowych
+#dwa rodzaje skalowania wykorzysytwane są najczęściej min-max scaling i standaryzacja
+
+rooms_ix, bedrooms_ix, population_ix, household_ix = 3, 4, 5, 6
+
+
+class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
+    def __init__(self, add_bedrooms_per_room=True):
+        self.add_bedrooms_per_room = add_bedrooms_per_room
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X, y=None):
+        rooms_to_families = X[:, rooms_ix] / X[:, household_ix]
+        population_to_family = X[:, population_ix] / X[:, household_ix]
+        if self.add_bedrooms_per_room:
+            bedrooms_to_room = X[:, bedrooms_ix] / X[:, rooms_ix]
+            return np.c_[X, rooms_to_families, population_to_family, bedrooms_to_room]
+        else:
+            return np.c_[X, rooms_to_families, population_to_family]
+
+
+#potok pomagający wyznaczyć właściwą sekwencję transformacji
+num_pipeline = Pipeline([
+    ('imputer', SimpleImputer(missing_values=np.nan, strategy='mean')),
+    ('attribs_adder', CombinedAttributesAdder()),
+    ('std_scaler', StandardScaler()),           #standaryzacja
+])
+housing_num_tr = num_pipeline.fit_transform(housing_num)
+
+
+#bezoiśrednie przekazywanie obiektu DataFrame do potoku
+class DataFrameSelector(BaseEstimator, TransformerMixin):
+    def __init__(self, attribute_names):
+        self.attribute_names = attribute_names
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X):
+        return X[self.attribute_names].values
+
+
+#uporządkowane
+num_attribs = list(housing_num)
+cat_attribs = ["ocean_proximity"]
+
+num_pipeline = Pipeline([
+    ('selector', DataFrameSelector(num_attribs)),
+    ('imputer', SimpleImputer(missing_values=np.nan, strategy='mean')),
+    ('attribs_adder', CombinedAttributesAdder()),
+    ('std_scaler', StandardScaler()),           #standaryzacja
+])
+
+cat_pipeline = Pipeline([
+    ('selector', DataFrameSelector(cat_attribs)),
+    ('cat_encoder', OneHotEncoder())
+])
+
+full_pipeline = FeatureUnion(transformer_list=[
+    ("num_pipeline", num_pipeline),
+    ("cat_pipeline", cat_pipeline),
+])
+
+housing_prepared = full_pipeline.fit_transform(housing)
+
+#############################################################WYBÓR I UCZENIE MODELU#############################################################
+
+#model regresji liniowej
+#lin_reg = LinearRegression()
+#lin_reg.fit(housing_prepared, housing_labels)
+
+#housing_predictions = lin_reg.predict(housing_prepared)
+#lin_mse = mean_squared_error(housing_labels, housing_predictions)
+#lin_rmse = np.sqrt(lin_mse)
+#print(lin_rmse)
+#błąd predykcji rzędu 68 628 dolarów nie jest zbytnio satysfakcjonujący
+#przykład niedotrenowania modelu
+#należy albok wybrać potężniejszy algorytm, albo wprowadzić lepsze cechy, albo zmniejszyć ograniczenie modelu
+
+
+#model drzew decyzyjnych
+#tree_reg = DecisionTreeRegressor()
+#tree_reg.fit(housing_prepared, housing_labels)
+
+#housing_predictions = tree_reg.predict(housing_prepared)
+#tree_mse = mean_squared_error(housing_labels, housing_predictions)
+#tree_rmse = np.sqrt(tree_mse)
+#print(tree_rmse)
+#brak błędu prawdopodobnie wynika w przetrenowania modelu - sytuacja odwrotna jak wyżej
+#sprawdźmy błąd przez użycie sprawdzianu krzyżowego(kroswalidacji)
+
+#scores = cross_val_score(tree_reg, housing_prepared, housing_labels, scoring="neg_mean_squared_error", cv=10)   #10 podzbiorów
+#tree_rmse_scores = np.sqrt(-scores) #-scores dlatego, że funkcja sprawdzianu krzyżowego oczekuje funkcji użyteczności a nie funkcji koszut, jest to przeciwieństwo mse dlatego obliczamy -scores
+
+
+def display_scores(scores):
+    print("Score: ", scores)
+    print("Mean: ", scores.mean())
+    print("Standard wariation:", scores.std())
+
+
+#display_scores(tree_rmse_scores)
+#daje nam to wynik 71786 +- 2447 co jest gorsze niż regresja liniowa
+#sprawdzian krzyżowy dla regresji liniowej
+
+#lin_score = cross_val_score(lin_reg, housing_prepared, housing_labels, scoring="neg_mean_squared_error", cv=10)
+#lin_rmse_scores = np.sqrt(-lin_score)
+#display_scores(lin_rmse_scores)
+#średnia 69277 +- 2968 odchylenie standardowe
+
+
+#model losowego lasu
+#forest_reg = RandomForestRegressor()
+#forest_reg.fit(housing_prepared, housing_labels)
+
+#housing_predictions = forest_reg.predict(housing_prepared)
+#forest_mse = mean_squared_error(housing_labels, housing_predictions)
+#forest_rmse = np.sqrt(forest_mse)
+#print(forest_rmse)
+
+#forest_score = cross_val_score(forest_reg, housing_prepared, housing_labels, scoring="neg_mean_squared_error", cv=10)
+#forest_rmse_scores = np.sqrt(-forest_score)
+#display_scores(forest_rmse_scores)
+#18760 rmse
+#50091 +- 2279
+#wynik zestawu uczącego jest mniejszy niż dla zbiorów walidacyjnych, oznacza to, ze model ulega przetrenowaniu
+
+#############################################################REGULACJA MODELU#############################################################
+#po wybraniu jakiegoś modelu należy go dostroić
+####metoda przeszukiwania siatki
+
+
+param_grid = [
+    {'n_estimators': [3, 10, 30], 'max_features': [2, 4, 6, 8]},
+    {'bootstrap': [False], 'n_estimators': [3, 10], 'max_features': [2, 3, 4]},
+]
+
+forest_reg = RandomForestRegressor()
+
+grid_search = GridSearchCV(forest_reg, param_grid, cv=5, scoring='neg_mean_squared_error', return_train_score=True)
+
+grid_search.fit(housing_prepared, housing_labels)
+
+#print(grid_search.best_params_)
+#max_feature = 6, n_estimators 30
+
+#cvres = grid_search.cv_results_
+#for mean_score, params in zip(cvres["mean_test_score"], cvres["params"]):
+#    print(np.sqrt(-mean_score), params)
+
+
+#metode przeszukiwania siatki stujemy gdy chcemy sprawdzić względnie niewielką liczbę kombinacji,
+#jeżeli przestrzeń poszikawnia hiperparametrów jest bardzo duża lepiej skorzystać z metody losowego przeszukiwania
+#metody RandomizedSearchCV używa się bardzo podobnie jak GridSearchCV
 
