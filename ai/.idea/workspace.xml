@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="book3">
-      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/linear_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/boolean_conversion/boolean_conversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/boolean_conversion/boolean_conversion_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/id_typy_is/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/id_typy_is/types_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/if_like_statement/if_like_statement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/if_like_statement/if_like_statement_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/mutable_inmutable/mutable_vs_immutable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/mutable_inmutable/mutable_vs_immutable_ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +65,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\work\udemy\kurs_1" />
       <recent name="D:\projects\work\book_2" />
       <recent name="D:\projects\work\book_1" />
       <recent name="D:\projects\work" />
       <recent name="D:\projects\work\machine_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.linear_regression">
-    <configuration name="classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.list_and_range_ex">
+    <configuration name="else_in_loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/classification.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="collaborative_recommendation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="else_in_loops_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/recommendation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/recommendation/collaborative_recommendation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="house_price" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="if_syntax_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/house_price.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="list_and_range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/linear_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="list_and_range_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_1/ai/deep_convolutional_q_learning/snake_ai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_1/ai/deep_convolutional_q_learning/snake_ai/testing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.linear_regression" />
-        <item itemvalue="Python.testing" />
-        <item itemvalue="Python.classification" />
-        <item itemvalue="Python.house_price" />
-        <item itemvalue="Python.collaborative_recommendation" />
+        <item itemvalue="Python.list_and_range_ex" />
+        <item itemvalue="Python.list_and_range" />
+        <item itemvalue="Python.else_in_loops_ex" />
+        <item itemvalue="Python.else_in_loops" />
+        <item itemvalue="Python.if_syntax_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645436115746</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="book3">
+      <created>1645446080502</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1645446080502</updated>
+    </task>
+    <task id="LOCAL-00026" summary="book3">
+      <created>1645446232639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1645446232639</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
