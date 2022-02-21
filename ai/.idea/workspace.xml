@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="book3">
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/boolean_conversion/boolean_conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/boolean_conversion/boolean_conversion_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/id_typy_is/types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/id_typy_is/types_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/if_like_statement/if_like_statement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/if_like_statement/if_like_statement_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/mutable_inmutable/mutable_vs_immutable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/kurs_1/mutable_inmutable/mutable_vs_immutable_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="udemy">
+      <change beforePath="$PROJECT_DIR$/../work/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../work/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/boolean_conversion/boolean_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/boolean_conversion/boolean_conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/boolean_conversion/boolean_conversion_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/boolean_conversion/boolean_conversion_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/else_in_loops/else_in_loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/else_in_loops/else_in_loops_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/id_typy_is/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/id_typy_is/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/id_typy_is/types_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/id_typy_is/types_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/if_like_statement/if_like_statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/if_like_statement/if_like_statement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/if_like_statement/if_like_statement_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/if_like_statement/if_like_statement_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/if_syntax/if_syntax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/if_syntax/if_syntax_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/list_and_range/list_and_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/list_and_range/list_and_range_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/mutable_inmutable/mutable_vs_immutable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/mutable_inmutable/mutable_vs_immutable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/mutable_inmutable/mutable_vs_immutable_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/mutable_inmutable/mutable_vs_immutable_ex.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\work\udemy\kurs_1\section_1" />
       <recent name="D:\projects\work\udemy\kurs_1" />
       <recent name="D:\projects\work\book_2" />
       <recent name="D:\projects\work\book_1" />
       <recent name="D:\projects\work" />
-      <recent name="D:\projects\work\machine_learning" />
     </key>
   </component>
   <component name="RunManager" selected="Python.list_and_range_ex">
@@ -379,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645446232639</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="udemy">
+      <created>1645459535734</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1645459535734</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +405,8 @@
     <MESSAGE value="zzz" />
     <MESSAGE value="folder refactor" />
     <MESSAGE value="book3" />
-    <option name="LAST_COMMIT_MESSAGE" value="book3" />
+    <MESSAGE value="udemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="udemy" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
