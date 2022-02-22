@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="udemy">
-      <change beforePath="$PROJECT_DIR$/../work/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../work/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/boolean_conversion/boolean_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/boolean_conversion/boolean_conversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/boolean_conversion/boolean_conversion_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/boolean_conversion/boolean_conversion_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/else_in_loops/else_in_loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/else_in_loops/else_in_loops_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/id_typy_is/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/id_typy_is/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/id_typy_is/types_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/id_typy_is/types_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/if_like_statement/if_like_statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/if_like_statement/if_like_statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/if_like_statement/if_like_statement_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/if_like_statement/if_like_statement_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/if_syntax/if_syntax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/if_syntax/if_syntax_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/list_and_range/list_and_range.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/list_and_range/list_and_range_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/list_and_range/list_and_range_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/mutable_inmutable/mutable_vs_immutable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/mutable_inmutable/mutable_vs_immutable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../work/udemy/kurs_1/mutable_inmutable/mutable_vs_immutable_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_1/mutable_inmutable/mutable_vs_immutable_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/logistic_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/polynomial_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/linear_regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +61,8 @@
       <recent name="D:\projects\work" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.list_and_range_ex">
-    <configuration name="else_in_loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.logistic_regression">
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,53 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="else_in_loops_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/kurs_1/else_in_loops/else_in_loops_ex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="if_syntax_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/kurs_1/if_syntax/if_syntax_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/linear_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,13 +125,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/logistic_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="polynomial_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/polynomial_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logistic_regression" />
+        <item itemvalue="Python.polynomial_regression" />
+        <item itemvalue="Python.linear_regression" />
         <item itemvalue="Python.list_and_range_ex" />
         <item itemvalue="Python.list_and_range" />
-        <item itemvalue="Python.else_in_loops_ex" />
-        <item itemvalue="Python.else_in_loops" />
-        <item itemvalue="Python.if_syntax_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645459535734</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="udemy">
+      <created>1645459638695</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1645459638695</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
