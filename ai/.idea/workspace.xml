@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="book3">
-      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/svm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/decision_trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/ensamble_learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/iris_drzewo.dot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +61,8 @@
       <recent name="D:\projects\work" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.svm">
-    <configuration name="arg_and_kwargs_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.decision_trees">
+    <configuration name="decision_trees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/args_and_kwargs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/args_and_kwargs/arg_and_kwargs_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/decision_trees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.decision_trees" />
         <item itemvalue="Python.svm" />
         <item itemvalue="Python.function_as_argument" />
         <item itemvalue="Python.function_as_variable_ex" />
         <item itemvalue="Python.function_as_variable" />
-        <item itemvalue="Python.arg_and_kwargs_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645566287905</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="book3">
+      <created>1645604208756</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1645604208756</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
