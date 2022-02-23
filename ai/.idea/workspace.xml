@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="book3">
-      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/ensamble_learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/returning_function/returning_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/returning_function/returning_function_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter/wrapper_with_parameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter/wrapper_with_parameter_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers/wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers/wrappers_ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,15 +57,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\work\udemy\course_1\section_2" />
       <recent name="D:\projects\work\udemy\kurs_1\section_1" />
       <recent name="D:\projects\work\udemy\kurs_1" />
       <recent name="D:\projects\work\book_2" />
       <recent name="D:\projects\work\book_1" />
-      <recent name="D:\projects\work" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ensamble_learning">
-    <configuration name="decision_trees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.wrapper_with_parameter_ex">
+    <configuration name="returning_function_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/returning_function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/decision_trees.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/returning_function/returning_function_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ensamble_learning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wrapper_with_parameter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/ensamble_learning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter/wrapper_with_parameter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="function_as_argument" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wrapper_with_parameter_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/function_as_argument" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/function_as_argument/function_as_argument.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter/wrapper_with_parameter_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="function_as_variable_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wrappers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/function_as_variable" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/function_as_variable/function_as_variable_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers/wrappers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wrappers_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +157,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/svm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers/wrappers_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ensamble_learning" />
-        <item itemvalue="Python.decision_trees" />
-        <item itemvalue="Python.svm" />
-        <item itemvalue="Python.function_as_argument" />
-        <item itemvalue="Python.function_as_variable_ex" />
+        <item itemvalue="Python.wrapper_with_parameter_ex" />
+        <item itemvalue="Python.wrapper_with_parameter" />
+        <item itemvalue="Python.wrappers_ex" />
+        <item itemvalue="Python.wrappers" />
+        <item itemvalue="Python.returning_function_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -415,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645610796658</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="book3">
+      <created>1645616784170</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1645616784170</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
