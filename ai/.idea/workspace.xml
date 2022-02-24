@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="udemy">
-      <change afterPath="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/dimensionality_reduction.py" afterDir="false" />
+    <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="book3">
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/cache/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/cache/cache_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/lambda/lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/lambda/lambda_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/partian_function/partial_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/partian_function/partial_function_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/send_mail/send_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/send_mail/send_mail_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/adding_and_removing_attributes_on_fly/adding_and_removing_attributes_on_fly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/car_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_properties/class_properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_attributes/class_with_instance_attributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_method/class_with_instance_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/classes_introduction/classes_introduction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,15 +65,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\work\udemy\course_1\section_3" />
       <recent name="D:\projects\work\udemy\course_1\section_2" />
       <recent name="D:\projects\work\udemy\kurs_1\section_1" />
       <recent name="D:\projects\work\udemy\kurs_1" />
       <recent name="D:\projects\work\book_2" />
-      <recent name="D:\projects\work\book_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dimensionality_reduction">
-    <configuration name="dimensionality_reduction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.class_properties">
+    <configuration name="adding_and_removing_attributes_on_fly" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/adding_and_removing_attributes_on_fly" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/book_3/fundamentals_of_machine_learning/dimensionality_reduction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/adding_and_removing_attributes_on_fly/adding_and_removing_attributes_on_fly.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wrapper_with_parameter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="car_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter/wrapper_with_parameter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/car_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wrapper_with_parameter_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_properties" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_properties" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrapper_with_parameter/wrapper_with_parameter_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_properties/class_properties.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wrappers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_with_instance_attributes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_attributes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers/wrappers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_attributes/class_with_instance_attributes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wrappers_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_with_instance_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_method" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_2/wrappers/wrappers_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_method/class_with_instance_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dimensionality_reduction" />
-        <item itemvalue="Python.wrapper_with_parameter_ex" />
-        <item itemvalue="Python.wrapper_with_parameter" />
-        <item itemvalue="Python.wrappers_ex" />
-        <item itemvalue="Python.wrappers" />
+        <item itemvalue="Python.class_properties" />
+        <item itemvalue="Python.adding_and_removing_attributes_on_fly" />
+        <item itemvalue="Python.car_class" />
+        <item itemvalue="Python.class_with_instance_method" />
+        <item itemvalue="Python.class_with_instance_attributes" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645627114494</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="book3">
+      <created>1645689812138</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1645689812138</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -447,9 +467,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="zzz" />
     <MESSAGE value="folder refactor" />
-    <MESSAGE value="book3" />
     <MESSAGE value="udemy" />
-    <option name="LAST_COMMIT_MESSAGE" value="udemy" />
+    <MESSAGE value="book3" />
+    <option name="LAST_COMMIT_MESSAGE" value="book3" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
