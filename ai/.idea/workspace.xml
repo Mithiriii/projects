@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="book3">
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/cache/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/cache/cache_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/lambda/lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/lambda/lambda_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/partian_function/partial_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/partian_function/partial_function_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/send_mail/send_mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_2/send_mail/send_mail_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/adding_and_removing_attributes_on_fly/adding_and_removing_attributes_on_fly.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/car_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_properties/class_properties.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_attributes/class_with_instance_attributes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_method/class_with_instance_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/classes_introduction/classes_introduction.py" afterDir="false" />
+    <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="udemy">
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/adding_methods/adding_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/callable_class/callable_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/callable_class/callable_list_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_and_static_methods/class_and_ststic_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_properties_with_decorator/class_properties_with_decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/decorating_with_a_class/decorating_with_a_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/inheritance/inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/multiinheritance/multiinheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/operators/operators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +67,8 @@
       <recent name="D:\projects\work\book_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.class_properties">
-    <configuration name="adding_and_removing_attributes_on_fly" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.multiinheritance">
+    <configuration name="callable_list_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/adding_and_removing_attributes_on_fly" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/callable_class" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/adding_and_removing_attributes_on_fly/adding_and_removing_attributes_on_fly.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/callable_class/callable_list_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="car_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="decorating_with_a_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/decorating_with_a_class" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/car_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/decorating_with_a_class/decorating_with_a_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_properties" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_properties" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/inheritance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_properties/class_properties.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/inheritance/inheritance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_with_instance_attributes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiinheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_attributes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/multiinheritance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_attributes/class_with_instance_attributes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/multiinheritance/multiinheritance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_with_instance_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="operators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/operators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_with_instance_method/class_with_instance_method.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/operators/operators.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.class_properties" />
-        <item itemvalue="Python.adding_and_removing_attributes_on_fly" />
-        <item itemvalue="Python.car_class" />
-        <item itemvalue="Python.class_with_instance_method" />
-        <item itemvalue="Python.class_with_instance_attributes" />
+        <item itemvalue="Python.multiinheritance" />
+        <item itemvalue="Python.inheritance" />
+        <item itemvalue="Python.operators" />
+        <item itemvalue="Python.decorating_with_a_class" />
+        <item itemvalue="Python.callable_list_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645689812138</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="udemy">
+      <created>1645717519135</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1645717519135</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,9 +469,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="zzz" />
     <MESSAGE value="folder refactor" />
-    <MESSAGE value="udemy" />
     <MESSAGE value="book3" />
-    <option name="LAST_COMMIT_MESSAGE" value="book3" />
+    <MESSAGE value="udemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="udemy" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
