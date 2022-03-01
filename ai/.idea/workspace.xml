@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="udemy">
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/adding_methods/adding_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/callable_class/callable_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/callable_class/callable_list_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_and_static_methods/class_and_ststic_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/class_properties_with_decorator/class_properties_with_decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/decorating_with_a_class/decorating_with_a_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/inheritance/inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/multiinheritance/multiinheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_3/operators/operators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/assertions/assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/customized_exceptions/customized_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/error_handling/error_handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/error_handling/error_handling_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/handling_multiple_errors/handling_multiple_errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/handling_multiple_errors/handling_multiple_errors_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/raising_exceptions/raising_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_getitem/basic_iterator_getitem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_iter_and_next/basic_iterator_iter_and_next.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_5/iter_function/iter_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator/generator_ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,15 +63,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\work\udemy\course_1\section_5" />
       <recent name="D:\projects\work\udemy\course_1\section_3" />
       <recent name="D:\projects\work\udemy\course_1\section_2" />
       <recent name="D:\projects\work\udemy\kurs_1\section_1" />
       <recent name="D:\projects\work\udemy\kurs_1" />
-      <recent name="D:\projects\work\book_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.multiinheritance">
-    <configuration name="callable_list_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.generator_ex">
+    <configuration name="basic_iterator_getitem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/callable_class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_getitem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/callable_class/callable_list_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_getitem/basic_iterator_getitem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorating_with_a_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="basic_iterator_iter_and_next" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/decorating_with_a_class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_iter_and_next" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/decorating_with_a_class/decorating_with_a_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_iter_and_next/basic_iterator_iter_and_next.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/inheritance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/inheritance/inheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiinheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="generator_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/multiinheritance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/multiinheritance/multiinheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator/generator_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="operators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="iter_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/iter_function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_3/operators/operators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/iter_function/iter_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.multiinheritance" />
-        <item itemvalue="Python.inheritance" />
-        <item itemvalue="Python.operators" />
-        <item itemvalue="Python.decorating_with_a_class" />
-        <item itemvalue="Python.callable_list_ex" />
+        <item itemvalue="Python.generator_ex" />
+        <item itemvalue="Python.generator" />
+        <item itemvalue="Python.iter_function" />
+        <item itemvalue="Python.basic_iterator_getitem" />
+        <item itemvalue="Python.basic_iterator_iter_and_next" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645717519135</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="udemy">
+      <created>1645799855690</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1645799855690</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
