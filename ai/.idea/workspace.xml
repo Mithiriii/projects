@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecf078-edbc-45b0-9b5c-e353e5571e48" name="Changes" comment="udemy">
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/assertions/assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/customized_exceptions/customized_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/error_handling/error_handling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/error_handling/error_handling_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/handling_multiple_errors/handling_multiple_errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/handling_multiple_errors/handling_multiple_errors_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_4/raising_exceptions/raising_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_getitem/basic_iterator_getitem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_iter_and_next/basic_iterator_iter_and_next.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_5/iter_function/iter_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator/generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator/generator_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/contexlib/contexlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/context_manager/context_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/ini_file/ini_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/itertools/itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/udemy/course_1/section_6/itertools/itertools_ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +63,8 @@
       <recent name="D:\projects\work\udemy\kurs_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.generator_ex">
-    <configuration name="basic_iterator_getitem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.contexlib">
+    <configuration name="contexlib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_getitem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/contexlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_getitem/basic_iterator_getitem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/contexlib/contexlib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="basic_iterator_iter_and_next" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="context_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_iter_and_next" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/context_manager" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/basic_iterator_iter_and_next/basic_iterator_iter_and_next.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/context_manager/context_manager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ini_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/ini_file" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator/generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/ini_file/ini_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generator_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="itertools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/itertools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/generator/generator_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/itertools/itertools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iter_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="itertools_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/iter_function" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/itertools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_5/iter_function/iter_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../work/udemy/course_1/section_6/itertools/itertools_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.generator_ex" />
-        <item itemvalue="Python.generator" />
-        <item itemvalue="Python.iter_function" />
-        <item itemvalue="Python.basic_iterator_getitem" />
-        <item itemvalue="Python.basic_iterator_iter_and_next" />
+        <item itemvalue="Python.contexlib" />
+        <item itemvalue="Python.ini_file" />
+        <item itemvalue="Python.context_manager" />
+        <item itemvalue="Python.itertools" />
+        <item itemvalue="Python.itertools_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645799855690</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="udemy">
+      <created>1646122748640</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1646122748640</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
